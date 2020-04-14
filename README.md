@@ -19,7 +19,7 @@ This project also aims to work across the whole stack, consisting of the fronten
 
 ## Pending Features 
 
-A Few features have already been implemented in a previous applciation which was focused on refining proficy with python and django, such as the **Habit Tracker**, **Authentication** and **password reset** However these features need to be implemented to support and work with the api calls/ REST format.
+A Few features have already been implemented in a previous applciation which was focused on refining proficy with python and django, such as the **Habit Tracker**, **Authentication** and **password reset**  However these features need to be implemented to support and work with the api calls/ REST format. Project [Habits](https://github.com/Pedro-D13/Habits)
 
 * - [ ] **Habit Tracker** - Helps create habits, by keeping track of the repetitive tasks users have set for themselves. Will ask at the end of each day, have they completed this task. Option to opt-in or out of reminders which will be emails sent to the user at their designated times.
 

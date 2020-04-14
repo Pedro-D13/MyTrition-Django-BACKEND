@@ -1,7 +1,10 @@
 # Habby
 Backend application which uses Django RestFrameowrk
 
-To apply knowledge and practice, building a REST framework in django, and combining this with a front JavaScript Framework.
+Purpose of this project is apply practical knowledge and demonstrate an understanding of REST framework in django. 
+The backend takes api requests from a [frontend](https://github.com/Pedro-D13/ANGULAR-FRONTEND) created using Angular.
+
+This project also aims to work across the whole stack, consisting of the frontend user-facing code, backend business logic and data retrieval from a database, all the way to deploying it on a Linux server and carrying out DevOps operations such as continuous integration and continuous deployment
 
 
 ## Tech/framework used
@@ -12,9 +15,13 @@ To apply knowledge and practice, building a REST framework in django, and combin
 1. Postgresql
 
 ## Features
-* - [x] **ToDoList** - Create Update and Delete Lists todolist items.
+* - [x] **ToDoList** - Return response to calls requesting data from backend, or carry out CRUD operations
 
-* - [ ] **Habit Tracker** - Helps create habits, by keeping track of the repetitive tasks users have set for themselves. Will ask at the end of each day, have they completed this task. Option to opt in or out of reminders which will be emails sent to the user at their designated times.
+## Pending Features 
+
+A Few features have already been implemented in a previous applciation which was focused on refining proficy with python and django, such as the **Habit Tracker**, **Authentication** and **password reset** However these features need to be implemented to support and work with the api calls/ REST format.
+
+* - [ ] **Habit Tracker** - Helps create habits, by keeping track of the repetitive tasks users have set for themselves. Will ask at the end of each day, have they completed this task. Option to opt-in or out of reminders which will be emails sent to the user at their designated times.
 
 * - [ ] **Authentication** - Users can login, by signing up with emails. 
 
